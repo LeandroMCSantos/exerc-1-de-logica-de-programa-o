@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        let n = parseFloat(prompt('digite a nota do aluno'))
+        let n2 = parseFloat(prompt('digite a segunda nota'))
+        let media = (n + n2) /2
+
+        if(media < 6){
+            let exame = parseFloat(prompt('digite a nota do exame'))
+            let novamedia = (exame + media) /2
+
+            if (media >= 6){
+                alert('aprovado')
+            } else {
+                alert('reprovado')
+            }
+        }
+        else {
+            alert('aprovado')
+        }
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
